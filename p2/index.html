@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FRONTLINE</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>FRONTLINE</h1>
+	</header>
+
+	<section class="slide" id="cover">
+		<h2>FRONTLINE</h2>
+		<p>Занятие №2</p>
+		<figure>
+			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+
+		</figure>
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#FFF;
+					}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Темы занятия:</h2>
+		<ol style="font-size:16px;">
+			<li>Как работает интернет</li>
+			<li>Архитектура клиент-сервер</li>
+			<li>Как работают браузеры. DNS</li>
+			<li>Работа и статусы HTTP</li>
+			<li>Инструменты разработчика</li>
+			<li>Расширение для отправки HTTP запросов - установить и проверить работу запросов</li>
+			<li>Отправка сообщения в Slack через расширение Chrome и отправку запроса на API Slack</li>
+			<li>Работа с консолью (терминалом), команда ping </li>
+			<li>Хосты, домены, веб серверы</li>
+		</ol>
+	</section>
+	<section class="slide">
+		<h2>Как работает интернет. URL.</h2>	
+		<p >Множество машин, связанных сетью. Нам интересны URL.</p>
+		<p>URL - Uniform Resource Locator - Единый указатель ресурса.</p>
+		<p><img  src="https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-url-structure.png" /></p>
+	</section>
+	<section class="slide">
+		<h2>Архитектура клиент-сервер</h2>	
+		<img src="http://msatechnosoft.in/blog/wp-content/uploads/2017/04/Client-Server-Architecture-MSA-Technosoft.png" width="100%" />
+	</section>
+	
+	<section class="slide">
+		<h2>Работа с консолью (терминалом), команда ping</h2>	
+		<p>
+			<ul>
+				<li>Win+R, терминал Windows</li>
+				<li>ping google.com</li>
+			</ul>
+		</p>
+	</section>
+	
+	
+	<section class="slide">
+		<h2>Работа и статусы HTTP</h2>	
+		<ul>
+			<li>Как работает HTTP протокол</li>
+			<li>Статусы https://developer.mozilla.org/en-US/docs/Web/HTTP/Status</li>
+			<li>Какие еще бывают протоколы? Например, FTP, SFTP</li>
+			<li>Что такое API?</li>
+			
+		</ul>
+	</section>
+	<section class="slide">
+		<h2>Инструменты разработчика</h2>	
+		<p>
+		<ul>
+			<li>Для чего нужны</li>
+			<li>Как запустить</li>
+			<li>Вкладка Network - что передается по сети, статусы, тело</li>
+			<li>Смотрим, как менять элементы на странице</li>
+			<li>Всегда проверяйте ввод от клиента! Что будет если вместо Мужчина / Женщина я поставлю "Краб"?</li>
+		</ul>
+		</p>
+	</section>	
+	
+	
+<!--	<section class="slide">-->
+<!--		<h2>Хосты, домены, веб серверы</h2>-->
+<!--			<p>-->
+<!--			Работаем с нашим хостингом, тестовый аккаунт:<br><br>-->
+<!--			Панель: <a href="http://st.php-academy.org:1500/ispmgr">http://st.php-academy.org:1500/ispmgr</a><br>-->
+<!--			Логин: dits-test<br>-->
+<!--			Пароль: 1H1d9P0w<br>-->
+<!--			</p>-->
+<!--	</section>-->
+	<section class="slide">
+		<h2>HTTP</h2>
+			<p>
+			<b>Задача #2!</b>
+			Для информации: список бесплатных API <a href="https://github.com/toddmotto/public-apis">https://github.com/toddmotto/public-apis</a><br><br>
+			
+			Возьмите эту страницу - это документация: <a href="https://exchangeratesapi.io/">https://exchangeratesapi.io/</a> - здесь описано бесплатное API по курсам валют.
+			С помощью расширения Chrome отправьте запросы и получите ответы таким образом, чтобы обязательно получить статусы 200 OK, 400 Bad Request.
+			
+			</p>
+	</section>
+<!--</li>-->
+
+	<div class="progress"></div>
+
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2017 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
